@@ -486,11 +486,18 @@ video {
     gap: 30px;
 }
 
+.client__item{
+    /* width: 100%; */
+}
+
 @media screen and (max-width: 768px) {
     .clients__grid {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+    .client__item{
+        width: 30%;
     }
 }
 
