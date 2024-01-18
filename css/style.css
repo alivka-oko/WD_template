@@ -161,6 +161,12 @@ video {
     }
 }
 
+@media screen and (max-width: 10px) {
+    .home__banner>.container {
+        gap: 40px;
+    }
+}
+
 @media screen and (max-width: 920px) {
     .home__banner>.container {
         flex-direction: column;
@@ -486,7 +492,7 @@ video {
     gap: 30px;
 }
 
-.client__item{
+.client__item {
     /* width: 100%; */
 }
 
@@ -496,7 +502,8 @@ video {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .client__item{
+
+    .client__item {
         width: 30%;
     }
 }
